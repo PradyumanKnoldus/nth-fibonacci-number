@@ -4,7 +4,7 @@ This Scala code provides an implementation of a class FibonacciNumber that can b
 
 ## Method Signature
 
-    final def fibonacciCalculator(position: Int, nextToLast: Int = 0, last: Int = 1): Int
+    final def fibonacciCalculator(position: Int, nextToLast: BigInt = 0, last: BigInt = 1): BigInt
 
 This method takes three parameters:
 
